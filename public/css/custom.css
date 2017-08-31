@@ -1,3 +1,71 @@
 .content {
     padding: 15px;
+    padding-top: 30px;
+    background-color: #fcfcfc;
+    max-width: 1024px;
+    margin: auto;
+}
+
+.navbar-fixed > nav {
+    background-color: #1e88e5;
+}
+
+#sidenav-overlay {
+    z-index: 996;
+}
+
+.center-v {
+    position: relative !important;
+    top: 50% !important;
+}
+
+.card a {
+    color: #07a !important;
+}
+
+.c-card .card-title {
+    background-color: rgba(0, 0, 0, 0.44);
+}
+
+.companies .company {
+    max-width: 100%;
+    height: auto;
+}
+
+.link-setup {
+    text-transform: uppercase;
+}
+
+.social-buttons {
+    text-align: center;
+}
+
+.company-list {
+    height: 16px;
+}
+
+.company-header-image {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.sub-list {
+    margin-left: 40px;
+    list-style-type: circle !important;
+}
+
+.sub-list li {
+    list-style-type: circle !important;
+}
+
+.card-panel, .c-card {
+    border-radius: 4px;
+}
+
+.card .card-image img {
+    border-radius: 4px 4px 0px 0px;
+}
+
+.card .card-action:last-child{
+    border-radius: 0px 0px 4px 4px;
 }

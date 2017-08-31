@@ -307,3 +307,1448 @@ Processing by HomeController#home as HTML
 Completed 200 OK in 3ms (Views: 2.3ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-08-30 12:20:24 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 164ms (Views: 66.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2017-08-30 12:20:25 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-08-30 12:33:34 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 3.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 12:34:43 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 12:35:09 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.7ms)
+
+
+Started GET "/badges.html" for 127.0.0.1 at 2017-08-30 12:35:11 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/badges.html"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-08-30 12:35:14 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 12:47:04 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 13:52:04 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 7ms (Views: 5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 13:52:22 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 13:53:08 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 13:54:19 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 13:56:25 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 1.8ms)
+
+
+Started GET "/collapsible.html" for 127.0.0.1 at 2017-08-30 13:56:33 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/collapsible.html"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-08-30 13:56:34 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4ms (Views: 2.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 13:59:12 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4ms (Views: 3.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 13:59:59 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3ms (Views: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:00:47 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3ms (Views: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:02:25 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:04:07 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4ms (Views: 2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:04:57 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:11:26 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:13:40 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:15:00 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:17:02 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 11.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:17:23 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:17:48 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:18:20 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:25:34 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:29:12 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:29:48 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:30:24 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:32:03 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:35:02 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:36:05 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 2.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:38:15 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:43:06 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:44:14 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:44:44 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 3.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:46:27 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:47:10 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 2.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:47:54 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:49:00 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:49:38 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:50:57 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:53:29 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 3.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:53:37 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:54:36 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4ms (Views: 3.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:57:48 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4ms (Views: 3.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 14:57:59 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4ms (Views: 2.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:00:18 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:00:50 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:02:11 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.1ms)
+
+
+Started GET "/img/company1.png" for 127.0.0.1 at 2017-08-30 15:02:12 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/img/company1.png"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:02:22 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:03:34 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 2.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:06:41 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:09:16 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:09:44 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:10:10 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 6ms (Views: 5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:11:36 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:11:52 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:12:54 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 3.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:13:28 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:13:59 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:15:17 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4ms (Views: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:17:22 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:20:56 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:27:24 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.5ms)
+
+
+Started GET "/images/sample-1.jpg" for 127.0.0.1 at 2017-08-30 15:27:24 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/images/sample-1.jpg"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:27:54 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 1.7ms)
+
+
+Started GET "/images/sample-1.jpg" for 127.0.0.1 at 2017-08-30 15:27:55 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/images/sample-1.jpg"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:29:49 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:30:31 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:31:48 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4ms (Views: 2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:35:12 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:36:41 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 4.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:39:27 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4ms (Views: 2.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:39:38 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:40:45 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:41:06 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4ms (Views: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:44:05 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:46:02 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 3.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:46:48 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 3.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:47:43 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:48:41 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 6ms (Views: 4.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:51:03 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 2.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:53:04 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4ms (Views: 2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:53:10 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 3.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:53:13 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:53:58 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 2.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 15:59:28 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 16:00:05 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 16:01:49 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5ms (Views: 3.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 16:03:26 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4ms (Views: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 16:04:36 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 3.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 16:17:19 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 2.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 16:30:52 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 3.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 16:32:12 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 16:46:13 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 2.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 16:46:50 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 2.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 16:50:09 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 16:51:53 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 16:52:51 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4ms (Views: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 17:53:50 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 17:59:45 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 2.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 18:00:58 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 18:01:28 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 18:07:02 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 18:09:32 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 2.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 18:13:01 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 18:17:53 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3ms (Views: 2.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 18:19:36 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 18:21:37 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 14ms (Views: 12.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 18:22:28 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 3.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 18:24:10 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 18:26:01 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 18:33:39 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 3.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 18:36:09 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4ms (Views: 3.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 18:37:29 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 18:37:59 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 18:38:16 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 3.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 18:42:25 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5ms (Views: 3.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 18:43:43 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-31 08:52:10 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 303ms (Views: 27.1ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2017-08-31 08:52:11 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-08-31 08:53:22 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4ms (Views: 2.6ms)
+
+
+Started GET "/img/company8.jpg" for 127.0.0.1 at 2017-08-31 08:53:23 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/img/company8.jpg"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-08-31 08:53:49 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3ms (Views: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-31 09:04:35 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-31 09:08:12 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 5ms (Views: 3.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-31 09:14:18 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-31 09:14:48 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3ms (Views: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-31 09:17:46 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 4ms (Views: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-31 09:18:55 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 5ms (Views: 3.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-31 09:20:04 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3ms (Views: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-31 09:27:12 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3ms (Views: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-31 09:29:11 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4ms (Views: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-31 09:33:14 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4ms (Views: 2.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-31 09:34:16 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4ms (Views: 2.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-31 09:46:05 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3ms (Views: 2.7ms)
+
+
+Started GET "/" for 181.136.40.90 at 2017-08-31 10:48:51 -0500
+Cannot render console from 181.136.40.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 5ms (Views: 3.7ms)
+
+
+Started GET "/favicon.ico" for 181.136.40.90 at 2017-08-31 10:49:00 -0500
+Cannot render console from 181.136.40.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 104.209.188.207 at 2017-08-31 10:49:13 -0500
+Cannot render console from 104.209.188.207! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 2.1ms)
+
+
+Started GET "/favicon.ico" for 104.209.188.207 at 2017-08-31 10:49:14 -0500
+Cannot render console from 104.209.188.207! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 40.78.146.128 at 2017-08-31 10:49:44 -0500
+Cannot render console from 40.78.146.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4ms (Views: 2.9ms)
+
+
+Started GET "/favicon.ico" for 40.78.146.128 at 2017-08-31 10:49:44 -0500
+Cannot render console from 40.78.146.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 181.49.86.237 at 2017-08-31 10:49:45 -0500
+Cannot render console from 181.49.86.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 5ms (Views: 4.2ms)
+
+
+Started GET "/favicon.ico" for 181.49.86.237 at 2017-08-31 10:49:58 -0500
+Cannot render console from 181.49.86.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 75.151.173.217 at 2017-08-31 10:51:23 -0500
+Cannot render console from 75.151.173.217! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 6ms (Views: 4.4ms)
+
+
+Started GET "/favicon.ico" for 75.151.173.217 at 2017-08-31 10:51:35 -0500
+Cannot render console from 75.151.173.217! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-08-31 10:52:59 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-31 10:53:20 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4ms (Views: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-31 10:54:02 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 5ms (Views: 3.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-31 10:54:35 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 7ms (Views: 5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-31 10:55:31 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4ms (Views: 3.0ms)
+
+
+Started GET "/" for 181.136.40.90 at 2017-08-31 10:55:54 -0500
+Cannot render console from 181.136.40.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3ms (Views: 2.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-31 11:31:41 -0500
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 1.9ms)
+
+
+Started GET "/" for 181.49.86.237 at 2017-08-31 11:43:43 -0500
+Cannot render console from 181.49.86.237! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 6ms (Views: 4.1ms)
+
+
+Started GET "/" for 181.136.40.90 at 2017-08-31 12:04:57 -0500
+Cannot render console from 181.136.40.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4ms (Views: 2.8ms)
+
+
