@@ -1,0 +1,42 @@
+<div id="modal-data-editor-text" class="modal modal-fixed-footer">
+    <div class="modal-content">
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea id="textarea-content" class="materialize-textarea"></textarea>
+                        <label for="textarea-content" class="active">Edit</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Cancel</a>
+        <a href="#!"
+           class="modal-action modal-close waves-effect waves-green btn-flat modal-data-editor-save-text">Save</a>
+    </div>
+</div>
+
+<div id="modal-data-editor-image" class="modal modal-fixed-footer">
+    <div class="modal-content">
+        <form action="#">
+            <div class="file-field input-field">
+                <div class="btn">
+                    <span>Image</span>
+                    <input id="modal-data-editor-image-input" type="file" accept="image/*">
+                </div>
+                <div class="file-path-wrapper">
+                    <input class="file-path validate" type="text">
+                </div>
+            </div>
+        </form>
+        <div class="preview-image-container">
+            <img class="preview-image"/>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Cancel</a>
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat modal-data-editor-save-image">Save</a>
+    </div>
+</div>
