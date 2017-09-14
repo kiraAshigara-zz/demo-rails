@@ -40,6 +40,12 @@ var DataEditable = (function () {
             openModalEditor(id);
         });
 
+        $('body').on('click', '.de-delete-button', function () {
+            var id = $(this).parent().attr('data-editable-container');
+
+            deleteComponent(id);
+        });
+
         $('body').on('click', '.modal-data-editor-save-text', function (e) {
             e.preventDefault();
             var text = $('#modal-data-editor-text #textarea-content').val();
@@ -109,13 +115,19 @@ var DataEditable = (function () {
 
         if (type === 'text') {
             var textArea = modal.find('#textarea-content');
-            textArea.text(component.text());
+            textArea.val(component.text());
         } else if (type === 'image') {
             var image = modal.find('.preview-image');
             image.attr('src', component.attr('src'));
         }
 
         modal.modal('open');
+    }
+
+    function deleteComponent(componentId) {
+        component = $('[data-editable="{0}"]'.format(componentId));
+        component.remove();
+        $('[data-editable-container="{0}"]'.format(componentId)).remove();
     }
 
     return {

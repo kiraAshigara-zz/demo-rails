@@ -18,6 +18,17 @@
     padding: 3px;
     padding-bottom: 0px;
     background-color: #03A9F4;
+    border-radius: 0px 0px 0px 0px;
+    cursor: pointer;
+}
+
+.de-delete-button {
+    float: right;
+    text-transform: capitalize;
+    color: white;
+    padding: 3px;
+    padding-bottom: 0px;
+    background-color: #cb2027;
     border-radius: 0px 0px 0px 4px;
     cursor: pointer;
 }
@@ -42,6 +53,7 @@
 
 #modal-data-editor-text #textarea-content {
     height: calc(100% - 65px);
+    overflow-y: auto;
 }
 
 #modal-data-editor-image .preview-image-container {
